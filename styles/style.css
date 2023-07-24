@@ -19,7 +19,6 @@
 }
 
 .header__links-list-item {
-  padding-left: 4px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -38,6 +37,10 @@
 
 .header__link:hover {
   color: pink;
+}
+
+.header__link_active {
+  border-bottom: 0;
 }
 
 .header__logo {
